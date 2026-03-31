@@ -1,0 +1,155 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+
+.Card1, .Card2 {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    width: 380px;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    background: #fafafa;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 6px rgba(79, 70, 229, 0.3);
+}
+
+
+textarea {
+    min-height: 70px;
+    max-height: 150px;
+    resize: none;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+
+select {
+    height: 45px;
+    cursor: pointer;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-top: 5px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+.Card2 p {
+    text-align: center;
+    color: #888;
+}
+
+
+.milestone-item {
+    background: #f9fafc;
+    padding: 14px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    transition: 0.2s ease;
+}
+
+.milestone-item:hover {
+    transform: translateY(-2px);
+}
+
+
+.milestone-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.milestone-title {
+    flex: 1;
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.milestone-category {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+}
+
+
+.milestone-category.work {
+    background: #3b82f6;
+}
+
+.milestone-category.personal {
+    background: #22c55e;
+}
+
+.milestone-category.health {
+    background: #ef4444;
+}
