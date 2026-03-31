@@ -2,6 +2,14 @@
 
 > A full-stack application for creating and managing project milestones with a clean, responsive UI built with React and FastAPI.
 
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-16+-green?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.95+-orange?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+
+</div>
 
 ## Table of Contents
 
