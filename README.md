@@ -50,8 +50,8 @@ Before getting started, make sure you have the following installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <https://github.com/Shivamcoli/Milestone_Tracker.git>
-cd <https://github.com/Shivamcoli/Milestone_Tracker.git>
+git clone https://github.com/Shivamcoli/Milestone_Tracker.git
+cd https://github.com/Shivamcoli/Milestone_Tracker.git
 ```
 
 ### Step 2: Set Up Backend
